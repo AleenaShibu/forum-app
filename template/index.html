@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome yo my forum!</title>
+	</head>
+<body>
+	<ul>
+		{% for post in article %}
+		<li>{{ post.post }}
+		</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>
